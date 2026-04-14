@@ -8,4 +8,6 @@
 
 rootProject.name = "java-design-patterns"
 
-include("singleton")
+include("singleton-classic")
+include("singleton-billpugh")
+include("singleton-enum")

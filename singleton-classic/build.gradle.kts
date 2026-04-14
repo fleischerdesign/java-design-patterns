@@ -8,5 +8,5 @@ repositories {
 }
 
 application {
-    mainClass.set("singleton.Main")
+    mainClass.set("singleton.classic.Main")
 }
