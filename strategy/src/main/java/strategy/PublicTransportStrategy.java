@@ -1,7 +1,11 @@
 package strategy;
 
+/**
+ * Concrete strategy for public transport navigation.
+ */
 public class PublicTransportStrategy implements RouteStrategy {
-	public void buildRoute(String a, String b) {
-		System.out.println("Öffiroute von " + a + " nach " + b + " wurde berechnet.");
-	}
+    @Override
+    public void buildRoute(String a, String b) {
+        System.out.println("Public transport route from " + a + " to " + b + " calculated.");
+    }
 }

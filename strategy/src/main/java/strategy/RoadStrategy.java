@@ -1,7 +1,11 @@
 package strategy;
 
+/**
+ * Concrete strategy for road-based navigation.
+ */
 public class RoadStrategy implements RouteStrategy {
-	public void buildRoute(String a, String b) {
-		System.out.println("Autoroute von " + a + " nach " + b + " wurde berechnet.");
-	}
+    @Override
+    public void buildRoute(String a, String b) {
+        System.out.println("Road route from " + a + " to " + b + " calculated.");
+    }
 }

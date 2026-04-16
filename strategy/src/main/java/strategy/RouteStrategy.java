@@ -1,5 +1,9 @@
 package strategy;
 
+/**
+ * Common interface for all route calculation algorithms.
+ */
 public interface RouteStrategy {
-	void buildRoute(String a, String b);
+    void buildRoute(String start, String end);
 }
+
